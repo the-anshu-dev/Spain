@@ -1,0 +1,162 @@
+body
+{
+    background-color: #ecceff;
+}
+
+.center
+{
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #42a5f5;
+    width: 250px;
+    height: 250px;
+    box-shadow: 0px 0px 50px 3px #000;
+}
+
+span
+{
+    left: 10%;
+    top: 10%;
+    box-shadow: 0px 0px 25px #000;
+} 
+
+span:nth-child(1)
+{
+    position: absolute;
+    width: 220px;
+    height: 220px;
+    background-color: #90caf9;
+    left: 6%;
+    top: 6%;
+
+    /* Fancy Radius  */
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+
+    animation: animate 3s infinite;
+    animation-delay: 0.3s;
+
+}
+span:nth-child(2)
+{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: #bbdefb;
+    left: 10%;
+    top: 10%;
+
+    /* Fancy Radius  */
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+
+    animation: animate 3s infinite;
+    animation-delay: 0.4s;
+
+}
+span:nth-child(3)
+{
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    background-color: #e3f2fd;
+    left: 14%;
+    top: 14%;
+
+    /* Fancy Radius  */
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+
+    animation: animate 3s infinite;
+    animation-delay: 0.5s;
+
+}
+span:nth-child(4)
+{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-color: #90caf9;
+    left: 18%;
+    top: 18%;
+
+    /* Fancy Radius  */
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+
+    animation: animate 3s infinite;
+    animation-delay: 0.6s;
+
+}
+span:nth-child(5)
+{
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    background-color: #e3f2fd;
+    left: 22%;
+    top: 22%;
+
+    /* Fancy Radius  */
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+
+    animation: animate 3s infinite;
+    animation-delay: 0.7s;
+
+}
+span:nth-child(6)
+{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    background-color: #90caf9;
+    left: 26%;
+    top: 26%;
+
+    /* Fancy Radius  */
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+
+    animation: animate 3s infinite;
+    animation-delay: 0.8s;
+
+}
+span:nth-child(7)
+{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: #bbdefb;
+    left: 30%;
+    top: 30%;
+
+    /* Fancy Radius  */
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+
+    animation: animate 3s infinite;
+    animation-delay: 0.9s;
+
+}
+
+@keyframes animate
+{
+    0%
+    {
+        transition: 0.7s;
+        transform: rotate(0deg);
+    }
+    20%
+    {
+        transition: 0.7s;
+        transform: rotate(95deg);
+    }
+    50%
+    {
+        transition: 0.7s;
+        transform: rotate(360deg);
+    }
+    0%
+    {
+        transition: 0.7s;
+        transform: rotate(0deg);
+    }
+}
